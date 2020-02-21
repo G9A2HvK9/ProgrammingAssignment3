@@ -11,3 +11,10 @@ You should create one R script called run_analysis.R that does the following:
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ## Method:
+
+1. Open R-Studio and run:
+	install.packages('zip', 'tidyr', 'data.table')
+
+2. Run 'run_analysis.r'
+
+3. The script will result in 2 .csv files bing placed into the working directory. 'final_data.csv' and 'full_data.csv'. For a description of both files, please refer to the codebook.

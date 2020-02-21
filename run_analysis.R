@@ -169,3 +169,31 @@ final_data <- full_data[,
         .SDcols = unlist(column_names_test)
 ]
 
+## removes all data sets from work space, except full_data and final_data
+rm(
+        activities_test, 
+        activities_train,
+        activity_labels,
+        column_names_test,
+        column_names_train,
+        data_test,
+        data_train,
+        factor_test,
+        factor_train,
+        headings_test,
+        headings_train,
+        subject_test,
+        subject_train,
+        test_data,
+        training_data
+        )
+
+## exports final_data and full_data to csv
+if(!file.exists('./final_data.csv')){
+        write.csv(final_data, './final_data.csv')
+}
+
+if(!file.exists('./full_data.csv')){
+        write.csv(full_data, './full_data.csv')
+}
+
