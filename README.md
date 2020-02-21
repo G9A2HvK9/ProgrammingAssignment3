@@ -18,3 +18,10 @@ You should create one R script called run_analysis.R that does the following:
 2. Run `run_analysis.r`
 
 3. The script will output a .txt file, which aggregates the raw data into average for every measurement variable along the factor variables of participant and activity type. For a closer description, please refer to the codebook.
+
+
+## In the script:
+
+The script takes the Human Activity Recognition Using Smartphones Data Set (available [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)) and modifies it to present a cleaner data set, which aggregates the raw data into averages.
+
+The final output presents a clean data set under the name `final_data.txt` where training and test data are combined into a single data table. The raw data readings are averaged along the factor variables of participant and activity. Accordingly the output delivers the average reading for each activity carried out by each participant.
