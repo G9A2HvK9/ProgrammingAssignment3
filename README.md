@@ -17,4 +17,4 @@ You should create one R script called run_analysis.R that does the following:
 
 2. Run `run_analysis.r`
 
-3. The script will result in 2 .csv files bing placed into the working directory. 'final_data.csv' and 'full_data.csv'. For a description of both files, please refer to the codebook.
+3. The script will output a .txt file, which aggregates the raw data into average for every measurement variable along the factor variables of participant and activity type. For a closer description, please refer to the codebook.

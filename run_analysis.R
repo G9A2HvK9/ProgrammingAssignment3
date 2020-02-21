@@ -188,12 +188,7 @@ rm(
         training_data
         )
 
-## exports final_data and full_data to csv
+## exports final_data to txt
 if(!file.exists('./final_data.csv')){
-        write.csv(final_data, './final_data.csv')
+        write.table(final_data, file = 'final_data.txt', row.names = FALSE)
 }
-
-if(!file.exists('./full_data.csv')){
-        write.csv(full_data, './full_data.csv')
-}
-
