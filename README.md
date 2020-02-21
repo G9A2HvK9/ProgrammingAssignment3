@@ -13,8 +13,8 @@ You should create one R script called run_analysis.R that does the following:
 ## Method:
 
 1. Open R-Studio and run:
-	install.packages('zip', 'tidyr', 'data.table')
+`install.packages('zip', 'tidyr', 'data.table')`
 
-2. Run 'run_analysis.r'
+2. Run `run_analysis.r`
 
 3. The script will result in 2 .csv files bing placed into the working directory. 'final_data.csv' and 'full_data.csv'. For a description of both files, please refer to the codebook.
